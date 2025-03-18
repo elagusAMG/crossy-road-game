@@ -18,13 +18,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true,
-
-    /* Threejs */
-    "paths": {
-			"three/webgpu": ["node_modules/three/build/three.webgpu.js"],
-			"three/tsl": ["node_modules/three/build/three.tsl.js"],
-		},
+    "noUncheckedSideEffectImports": true
   },
   "include": ["src"]
 }
